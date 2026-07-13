@@ -90,17 +90,17 @@ After Bob creates the requirements.txt file, install the packages:
 ```bash
 pip3 install -r requirements.txt
 ```
-Or you can talk to Bob in plain English "Install all the requirments for me"
+Or you can talk to Bob in plain English "Install all the requirements for me"
 ---
 
 ## Step 3: Create `.env` File
-First, make sure you are in your project folder, then create the '.env' (note the dot at the beginning) file, paste these contents: 
+First, make sure you are in your project folder, then create the `.env` (note the dot at the beginning) file with these contents:
 ```bash
-Help me create an .env file contains following requirments
+Help me create an .env file with the following contents
 
 API_KEY=paste_your_api_key_here
 PROJECT_ID=paste_your_project_id_here
-CLOUD_URL= paste_your_URL_here For example: https://us-south.ml.cloud.ibm.com
+CLOUD_URL=paste_your_URL_here  # For example: https://us-south.ml.cloud.ibm.com
 LLM_NAME=llama-3-3-70b-instruct
 ```
 
@@ -108,14 +108,14 @@ LLM_NAME=llama-3-3-70b-instruct
 
 
 You should see the four lines above.
-If you can not see the .env file, you can ask Bob to visable it for you, since it's a hidden file (starts with.), it won't show up in Finder by default.
+If you cannot see the `.env` file, you can ask Bob to make it visible for you, since it's a hidden file (starts with `.`), it won't show up in Finder by default.
 
 ---
 ## 3d. Fill In Your Real Credentials
 
   👉 **[If you don't remember where to get your project id and API key →](prerequisite.md)**
 ---
-You should be able to find you crendentials from your IBM cloud
+You should be able to find your credentials from your IBM Cloud account.
 ## Step 4: Generate `model_gateway.py` with Bob 
 
 <img width="1067" height="768" alt="Screenshot 2026-06-23 at 2 18 25 PM" src="https://github.com/user-attachments/assets/49a04130-006a-4633-82e2-141589a54cf2" />
@@ -124,7 +124,7 @@ You should be able to find you crendentials from your IBM cloud
 This file handles the connection to watsonx.ai using the REST API.
 
 
-4a Open Bob and paste this prompt:
+### 4a. Open Bob and paste this prompt:
 
 ```
 Generate a Python file called model_gateway.py that connects to IBM watsonx.ai using the REST API (not the SDK).
@@ -144,7 +144,7 @@ stop_sequences: ["```", "\n"] — stop on code fences and newlines to ensure the
 Return only the complete Python file with no explanations.
 ```
 
-4b: Verify your API Key
+### 4b. Verify your API Key
 
 You can simply ask Bob to do that for you!!!
 
@@ -615,12 +615,10 @@ The app opens automatically at **http://localhost:8501**.
 
 1. **Upload PDFs**: Click the file uploader and select up to 10 government expense receipt PDFs
 2. **Submit**: Click "⚡ Submit" to extract data (takes 10–30 seconds per file)
-3. **View Results**: See table with 8 columns and 4 metric cards
+3. **View Results**: See table with 7 columns and 3 metric cards
 4. **Analyze**: Click "📊 Analyze" to generate 3 interactive charts
 5. **Summarize**: Click "📝 Generate Summary" to get an AI-written summary of your government expenses
 6. **Export**: Click "⬇️ Export CSV" to download the extracted data
-
----
 
 ---
 

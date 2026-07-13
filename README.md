@@ -49,14 +49,14 @@ right now inside IBM.
 
 | File / Folder | Description |
 |---------------|-------------|
-| `BUILD_GUIDE_SIMPLE.md` | Step by Step Full technical reference with all Bob prompts |
+| `LAB1 .md` | Step-by-step build guide with all Bob prompts |
 | `LAB2.md` | Bonus lab — add budget tracking to your app |
-| `LAB3.md` | Increase Your UI Design|
-| `CHEAT_SHEET.md` | Quick reference — credentials, commands, fixes |
-| `env.template` | Credentials file template |
+| `LAB3.md` | Advanced customization — model switching and UI design |
+| `cheat-sheet.md` | Quick reference — credentials, commands, fixes |
+| `prerequisite.md` | Setup guide — Python, IBM Bob, IBM Cloud credentials |
 | `Invoice/` | Sample PDFs to test your app |
 | `solution/` | Reference implementation if you get stuck |
-|`Requirements.txt/`| Every neccessary tools you need for this project|
+| `requirements.txt` | All necessary Python dependencies for this project |
 
 ---
 ## 🎉 You Built It — What's Next?
@@ -66,7 +66,7 @@ right now inside IBM.
 Now that your expense tracker is running, take it further with **Lab 2**.
 
 In the bonus lab, you'll use Bob to add a full budget tracking system to
-your existing app， no new files needed, just three more prompts.
+your existing app, no new files needed, just three more prompts.
 
 You'll add:
 
@@ -107,7 +107,7 @@ It's great for features you're not sure how to structure yet.
 ## Reference
 
 - 📋 [Cheat Sheet](cheat-sheet.md) — Bob prompts, credentials, troubleshooting
-- 🔧 [env.Template](env.template.) — Pre-formatted credentials file
+- 🔧 [env.template](env.template) — Pre-formatted credentials file
 - 📄 [Invoice](Invoice/) — Test PDFs to try the app
 - 💡 [Solution](solution/) — Reference implementation if you get stuck
 

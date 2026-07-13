@@ -25,7 +25,7 @@ If you don't have Python installed, follow these steps:
 4. When done, open Terminal and run `python3 --version` to confirm.
 
 **Windows**:
-1. Go to [python.org/downloads](https://python.org/downloads, Download and install Python Install Manager.
+1. Go to [python.org/downloads](https://python.org/downloads), download and install Python Install Manager.
 2. Open Python Install Manager when installation is complete.
 3. In the Python Install Manager window, run:
 
@@ -45,7 +45,7 @@ If you don't have Python installed, follow these steps:
    - Click **Environment Variables**.
    - Edit the **Path** variable.
    - Add the Python installation directory and Scripts directory.
-   - restart your device.
+   - Restart your device.
 7. Open a new Command Prompt and run:
 
    ```bash
@@ -170,7 +170,7 @@ resources. Click the resource name with the product watsonx.ai Runtime.
 12. <img width="1512" height="812" alt="Untitled3" src="https://github.com/user-attachments/assets/22a7873a-1a77-4c9f-ab93-2bd14284ce09" />
 
 
-13. Click **Associate Service**, check the **watsonx Runtime** instance (Pick the same one as your resouce name), and confirm.
+13. Click **Associate Service**, check the **watsonx Runtime** instance (pick the same one as your resource name), and confirm.
 14.<img width="1512" height="812" alt="Untitled4" src="https://github.com/user-attachments/assets/f1827dbc-80fd-48af-bb7e-2cf0b0a094dc" />
 
 
